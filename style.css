@@ -82,29 +82,41 @@ nav a {
 }
 
 .sinopse img {
-    width: 100%;
+    width: 95%;
     float: left;
-    margin-right: 20px;
+    margin-right: 40px;
     border-radius: 10px;
 }
 
 .sinopse h3{
-    margin-top: -25px;
+    font-family: "Doppio One",serif;
+    margin-top: -6px;
+    margin-left: 630px;
+    color: #A3027A;
+    font-weight:normal;
+    font-size: 24px;
 }
 
 .sinopse p{
-    margin-left: 200px;
-    margin-top: 50px;
+    margin-left: 630px;
+    margin-top: -20%;
+    display: flex;
+    width: 550px;
+    font-family: "Cormorant Garamond",serif;
+    font-weight:bold;
+    font-size: 20px;
+   
 }
 
 /* Seção de personagens */
 .personagens {
+    font-family:  "Cormorant Garamond",serif;
     text-align: center;
     background-color: #fff;
     padding: 20px;
+    font-size: 20px;
+    font-weight: bolder;
 }
-
-
 
 .personagens img {
     width: 230px;
@@ -118,37 +130,129 @@ nav a {
 
 /* Seção da autora */
 .autora {
-    display: flex;
-    align-items: center;
+   
+  
     padding: 20px;
-    background-color: white;
     border-radius: 10px;
     width: 80%;
     margin: 20px auto;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
 }
 
 .autora img {
-    width: 150px;
+    width: 400px;
+    height: 320px;
     border-radius: 10px;
-    margin-right: 20px;
+    margin-right: -100px;
+    margin-top: -218px;
+    margin-left: 650px;
+}
+
+.autora h2{
+    font-family: "Doppio One",serif;
+    font-weight:normal;
+    font-size: 30px;
+    color: #A3027A;
+    margin-left: -30px;
+}
+
+.autora h4{
+    font-family: "Cormorant SC",serif;
+    color: #A3027A;
+    font-weight: bold;
+    font-size: 18px;
+    margin-left: 80px;
+    margin-top: -23px;
+}
+
+.autora p{
+    font-weight: 500;
+    font-size: 20px;
+    font-family: "Cormorant Garamond",serif;
+    margin-top: 19px;
+    width: 650px;
+    margin-left: -30px;
 }
 
 /* Avaliações */
-.avaliacoes {
+.opn1{
     background-color: #fff;
     padding: 20px;
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5D1E7;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
 }
 
-.avaliacao {
-    background-color: #f5e1f7;
-    padding: 15px;
+.opn2{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
     border-radius: 10px;
-    margin-bottom: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5D1E7;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
+}
+
+.opn3{
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #F5D1E7;
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.251);
+}
+
+#user{
+    width: 50px;
+    margin-top: -40px;
+}
+
+#stars{
+    width: 100px;
+    margin-top: -10px;
+}
+
+.avaliacoes h3{
+    font-family: "Cormorant SC", serif;
+    color: #A3027A;
+    margin-top: -40px;
+    margin-right: 10px;
+    display: block;
+    
+}
+
+.avaliacoes p{
+    margin-top: 70px;
+    margin-left: -200px;
 }
 
 /* Rodapé */
@@ -158,3 +262,6 @@ footer {
     color: rgb(0, 0, 0);
     margin-top: 20px;
 }
+
+
+
