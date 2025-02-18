@@ -59,7 +59,7 @@ nav {
     gap: 150px;
     padding: 40px;
     margin-left: 750px;
-    margin-top: -70px
+    margin-top: -70px;
 }
 
 nav a {
@@ -86,6 +86,7 @@ nav a {
     float: left;
     margin-right: 40px;
     border-radius: 10px;
+    margin-left: 70px;
 }
 
 .sinopse h3{
@@ -98,40 +99,50 @@ nav a {
 }
 
 .sinopse p{
-    margin-left: 630px;
-    margin-top: -20%;
-    display: flex;
+    
     width: 550px;
+    margin-left: 630px;
+    margin-top: 15px;
     font-family: "Cormorant Garamond",serif;
     font-weight:bold;
     font-size: 20px;
-   
+ 
 }
 
 /* Seção de personagens */
 .personagens {
     font-family:  "Cormorant Garamond",serif;
     text-align: center;
-    background-color: #fff;
     padding: 20px;
     font-size: 20px;
     font-weight: bolder;
+    background-image: url(img/floricultura.jpg);
+    margin-top: 220px;
+}
+
+.personagens h3{
+    margin-top: 30px;
+    font-family: "Doppio One",serif;
+    color: #A3027A;
+    font-weight:normal;
+    font-size: 24px;
+    margin-left: -780px;
 }
 
 .personagens img {
-    width: 230px;
-    height: 230px;
+    width: 250px;
+    height: 250px;
     border-radius: 50%;
-    margin: 10px;
-    margin-left: 30px;
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 1em;
+    margin-top: 40px;
 }
 
 
 
 /* Seção da autora */
 .autora {
-   
-  
     padding: 20px;
     border-radius: 10px;
     width: 80%;
@@ -175,14 +186,12 @@ nav a {
 
 /* Avaliações */
 .opn1{
-    background-color: #fff;
-    padding: 20px;
+
     margin: 20px auto;
     width: 80%;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-
-
+    
     display: flex;
     align-items: center;
     padding: 20px;
@@ -238,7 +247,8 @@ nav a {
 
 #stars{
     width: 100px;
-    margin-top: -10px;
+    margin-top: -40px;
+    
 }
 
 .avaliacoes h3{
@@ -247,7 +257,7 @@ nav a {
     margin-top: -40px;
     margin-right: 10px;
     display: block;
-    
+   
 }
 
 .avaliacoes p{
@@ -259,6 +269,17 @@ nav a {
 footer {
     text-align: center;
     padding: 20px;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     margin-top: 20px;
+    background-image: url(img/capa.jpg);
+    filter: opacity(70%);
+}
+
+footer p{
+    color: rgb(255, 255, 255);
+}
+
+footer button{
+   background-color: #71365D;
+   color: #ffff;
 }
