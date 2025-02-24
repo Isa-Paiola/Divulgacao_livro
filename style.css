@@ -17,7 +17,6 @@ header img{
     width: 1000px;
     height: 300px;
     margin-top: -80px;
-    filter: opacity(48%);
 }
 
 /* Cabeçalho */
@@ -116,8 +115,10 @@ nav a {
     padding: 20px;
     font-size: 20px;
     font-weight: bolder;
-    background-image: url(img/floricultura.jpg);
+    background-image: url(img/floricultura1.png);
     margin-top: 220px;
+    height: 500px;
+   
 }
 
 .personagens h3{
@@ -129,6 +130,21 @@ nav a {
     margin-left: -780px;
 }
 
+.Lily{
+    margin-left: -740px;
+
+}
+
+.Ryle{
+    margin-left: -20px;
+    margin-top: -342px;
+}
+
+.Atlas{
+    margin-top: -342px;
+    margin-left: 710px;
+}
+
 .personagens img {
     width: 250px;
     height: 250px;
@@ -138,7 +154,6 @@ nav a {
     margin-bottom: 1em;
     margin-top: 40px;
 }
-
 
 
 /* Seção da autora */
@@ -285,8 +300,6 @@ footer button{
 }
 
 
-
-
 /* java */
 .item{
     display: none;
@@ -298,6 +311,7 @@ footer button{
     overflow: hidden;
     background-color: var(--background);
     margin-top: 5000px;
+    margin-top: 2600px;
 }
 
 .item.ativo{
@@ -306,40 +320,27 @@ footer button{
 }
 
 .item .titulo{
-    font-size: 12rem;
-    color: #FFFFFF;
+    font-size: 3rem;
+    color: #ffffffa8;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     text-align: center;
-
+    
     /* centralizar */
     position: absolute;
     top: 50%;
-    left:50%;
+    left: 50%;
     transform: translate(-50%, -50%);
 }   
 
 .item .fruta{
-    width: 50%;
-    position: absolute;
+    width: 100%;
     top: 0;
     z-index: 3;
-    position: absolute;
     top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
+    left: 50%;
 }
 
-.item .refri{
-    /* centralizar */
-    position: absolute;
-    top: 50%;
-    left:50%;
-    transform: translate(-50%, -50%);
-
-    width: 600px;
-    z-index: 2;
-}
 #anterior, #proximo{
     position:absolute ;
     top: 50%;
@@ -356,6 +357,7 @@ footer button{
     z-index: 4;
     border-radius: 50%;
     margin-top: 5000px;
+    margin-top: 2600px;
 }
 
 #anterior{
