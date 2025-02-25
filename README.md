@@ -11,15 +11,16 @@
  
 ## Protótipo de Alta Fidelidade⬆️
 ### Desktop💻
-![Captura de tela 2025-02-25 090711](https://github.com/user-attachments/assets/77d44b13-e95e-4e7c-840f-db809f2d7465)
+![Captura de tela 2025-02-25 115542](https://github.com/user-attachments/assets/588240d1-d1a5-4530-8a70-04dfc3dfa5ff)
+
 
 
 ### Mobile📱
-![Captura de tela 2025-02-25 090813](https://github.com/user-attachments/assets/94bcfe07-0a22-45c1-bec7-10524f5e2db6)
+![Captura de tela 2025-02-25 115633](https://github.com/user-attachments/assets/e3852f4d-1fcb-4b21-a2eb-a9ea0f9a2d52)
 
 
 ## HTML e CSS
-![Captura de tela 2025-02-25 111549](https://github.com/user-attachments/assets/67522902-fb70-4822-943d-2bcc7fab598c)
+![Captura de tela 2025-02-25 115448](https://github.com/user-attachments/assets/c31c11e5-6af5-45c6-887a-c0b5c3711cbd)
 ![Captura de tela 2025-02-25 111725](https://github.com/user-attachments/assets/6318c3d8-cdbc-4d46-838f-7ce279bd521b)
 ![Captura de tela 2025-02-25 111802](https://github.com/user-attachments/assets/abc64813-1b64-4a8f-8a95-855c4386ad19)
 ![Captura de tela 2025-02-25 111838](https://github.com/user-attachments/assets/d3086fd0-7069-437d-8cfe-e15bef1e78c9)
