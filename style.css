@@ -19,6 +19,10 @@ header img{
     margin-top: -80px;
 }
 
+.foto {
+    height: -900px;
+}
+
 /* Cabeçalho */
 header {
     font-family: "Doppio One",serif;
