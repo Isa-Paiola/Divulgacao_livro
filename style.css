@@ -400,7 +400,7 @@ footer button{
 /* Responsividade (mobile) */
 @media(max-width: 320px){
     .item.ativo img.fruta{
-        width: 258px;
+        width: -500px;
         height: 200px;
         margin-top: 1px;
     }
